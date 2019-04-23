@@ -33,10 +33,4 @@ void Receiver::handleMessage(cMessage *msg) {
 
 void Receiver::finish()
 {
-    EV << "Hop count, min:    " << hopCountStats.getMin() << endl;
-    EV << "Hop count, max:    " << hopCountStats.getMax() << endl;
-    EV << "Hop count, mean:   " << hopCountStats.getMean() << endl;
-    EV << "Hop count, stddev: " << hopCountStats.getStddev() << endl;
-
-    hopCountStats.recordAs("hop count");
 }
