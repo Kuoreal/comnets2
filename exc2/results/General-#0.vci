@@ -1,0 +1,23 @@
+file 1952243 1556016754                                         
+version 2
+run General-0-20190423-12:51:28-14244
+attr configname General
+attr datetime 20190423-12:51:28
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Exercise2
+attr processid 14244
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param Exercise2.S.delayTime "truncnormal(3s, 1s)"
+
+vector 0 Exercise2.R "" ETV
+0	453 1435057 2 65535 0.1 32748.322469207902 32768 7.8072771430016e-006 1.999999891967 32748.322469208 43595.506065403
+0	1435510 516731 65537 88849 32749.139993404863 44392.871896545157 11657 0.00014196150004864 1.9992583105268 11644.549427337 15516.799689259
+
